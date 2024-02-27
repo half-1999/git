@@ -19,7 +19,7 @@ export const searchUser = async (username) => {
 
 export const getUserRepositories = async (username) => {
   try {
-    const token = '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'; // Replace 'YOUR_AUTH_TOKEN' with your actual token
+    const token = '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'; // Replace 'YOUR_AUTH_TOKEN' with your actual token
     const options = {
       headers: {
         Authorization: `token ${token}`
